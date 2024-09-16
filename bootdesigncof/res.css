@@ -1,0 +1,104 @@
+@media only screen and (max-width: 1024px){
+    .gallery-image {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 20px;
+    }
+    .container {
+        max-width: 960px;
+    }
+
+}
+
+
+@media only screen and (max-width: 896px){
+    .navbar-toggler{
+        background-color: white;
+    }
+    .banner-text {
+        width: 100%;
+        padding: 100px 0px;
+    }
+    
+    .outstanding-heading {
+      font-size: 40px;
+    }
+    
+    .coffee-heading {
+        font-size: 60px;
+    }
+    
+    .there-text {
+        font-size: 18px;
+    width: 100%;
+    }
+    .banner-section{
+        background-size: 100% 100%;
+    }
+    .carousel-inner {
+        padding: 25px 0px;
+    }
+
+    .about-section .about-main {
+        width: 100%;
+        display: block;
+    }
+    .content {
+        width: 100%;
+        padding: 25px 0px;
+    }
+    .gallery-image {
+        
+            display: grid;
+            grid-template-columns: auto;
+            row-gap: 20px;
+    }
+    .see-btn{
+          padding: 15px 45px;
+          font-size: 20px
+    }
+    .Service-details {
+        display: block;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .detail-1{
+        margin-top: 10px;
+    }
+    .detail-2{
+        margin-top: 10px;
+    }
+    .detail-3{
+        margin-top: 10px;
+    }
+    .clint-section {
+        width: 100%;
+    }
+    .testimonial h1 {
+        font-size: 45px;
+    }
+    .testimonial p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .monila-heading {
+        text-align: left;
+        padding-left: 0px;
+    }
+    .carousel-inner {
+         padding: 0px;
+    }
+    .contact-section {
+        display: block;
+    }
+    .mail-section {
+        width: 100%;
+    }
+    .map {
+        width: 100%;
+    }
+   
+    
+
+
+}
